@@ -1,0 +1,140 @@
+/*------------------------------------*\
+    #Skills
+\*------------------------------------*/
+
+.skills .progressbar {
+    margin-bottom: 32px;
+}
+
+.skills .progressbar:last-of-type {
+    margin-bottom: 0;
+}
+
+.skills .progress {
+    height: 6px;
+    background-color: #eeeeee;
+    border-radius: 2px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.skills .progress-bar {
+    height: 6px;
+    background-color: @color-theme;
+    border-radius: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 0;
+}
+
+.skills .progress-title {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 8px;
+    line-height: 26px;
+}
+
+.skills .progress-title .title {
+    color: @color-secondary;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: inherit;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+
+.skills-light .progress-title .title {
+    color: #f9f9f9;
+}
+
+.skills-theme .progress-title .title {
+    color: @color-white;
+}
+
+.skills-theme .heading .heading--desc {
+    color: #f9f9f9;
+}
+
+.skills .progress-title .value {
+    font-family: @font-heading;
+    float: right;
+    color: @color-body;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: inherit;
+    text-transform: uppercase;
+    padding-top: 0;
+}
+
+/* Skill #2 */
+
+.progressbar.progress-gradient .progress-bar {
+    background-color: #1bb580;
+    background-image: -webkit-gradient(linear, left top, right top, from(#1bb580), to(#0c6db0));
+    background-image: -webkit-linear-gradient(left, #1bb580, #0c6db0);
+    background-image: -moz-linear-gradient(left, #1bb580, #0c6db0);
+    background-image: -ms-linear-gradient(left, #1bb580, #0c6db0);
+    background-image: -o-linear-gradient(left, #1bb580, #0c6db0);
+    background-image: linear-gradient(left, #1bb580, #0c6db0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#1bb580', endColorStr='#0c6db0', gradientType='1');
+}
+
+/* Skill #3 */
+
+.progressbar.progress-gradient2 .progress-bar {
+    background-color: #1bb580;
+    background-image: -webkit-linear-gradient(to right, rgba(233, 93, 83, 0.8) 0%, rgba(12, 180, 206, 0.8) 100%);
+    background-image: -webkit-linear-gradient(to right, rgba(233, 93, 83, 0.8) 0%, rgba(12, 180, 206, 0.8) 100%);
+    background-image: -moz-linear-gradient(to right, rgba(233, 93, 83, 0.8) 0%, rgba(12, 180, 206, 0.8) 100%);
+    background-image: -ms-linear-gradient(to right, rgba(233, 93, 83, 0.8) 0%, rgba(12, 180, 206, 0.8) 100%);
+    background-image: -o-linear-gradient(to right, rgba(233, 93, 83, 0.8) 0%, rgba(12, 180, 206, 0.8) 100%);
+    background-image: linear-gradient(to right, rgba(233, 93, 83, 0.8) 0%, rgba(12, 180, 206, 0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='rgba(12, 180, 206, 0.8) 100%)', endColorStr='#0c6db0', gradientType='1');
+}
+
+.skills .heading .heading--title {
+    line-height: 45px;
+}
+
+.skills .heading .heading--desc {
+    line-height: 26px;
+}
+
+.skills-light .progress-bar {
+    background-color: #2f2e2e
+}
+
+.skills-light .progress-title .title {
+    color: #f9f9f9
+}
+
+.skills-light .progress-title .value {
+    color: #dddddd;
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .skills .heading {
+        margin-bottom: 30px;
+    }
+    .skills .progressbar,
+    .skills .progressbar:last-of-type {
+        margin-bottom: 25px;
+    }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .skills .heading {
+        margin-bottom: 30px;
+    }
+}

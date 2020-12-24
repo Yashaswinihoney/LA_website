@@ -1,0 +1,369 @@
+/*------------------------------------*\
+    #Banners
+\*------------------------------------*/
+
+/* Banner #1 */
+
+.banner-panel {
+    padding: 110px 70px;
+    width: 33.33333333%;
+    float: left;
+    position: relative;
+    max-height: 420px;
+    overflow: hidden
+}
+
+.panel--content {
+    position: relative;
+    padding-bottom: 27px;
+}
+
+.panel--content:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: @color-theme;
+}
+
+.banner-panel .num {
+    position: absolute;
+    left: 0;
+    top: -32px;
+    color: #efefef;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 1;
+    opacity: .2;
+    font-family: @font-heading;
+}
+
+.banner-panel h6 {
+    font-family: @font-body;
+    color: @color-theme;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 500;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.banner-panel h3 {
+    color: @color-white;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.banner-panel p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 26px;
+}
+
+.banner-panel p:last-of-type {
+    margin-bottom: 0
+}
+
+.banner-panel a {
+    color: @color-theme;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.banner-panel a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 22px;
+    height: 2px;
+    background-color: @color-theme;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -o-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.banner-panel:hover a:after {
+    width: 100%;
+}
+
+.interactive-white .banner-panel {
+    padding: 110px 15px;
+}
+
+.interactive-white .banner-panel h3 {
+    color: @color-secondary
+}
+
+.interactive-white .banner-panel .num {
+    opacity: 1
+}
+
+/* Banner #2 */
+
+.banner-2 .panel--content:after {
+    background-color: @color-white;
+}
+
+.banner-2 .banner-panel .num {
+    top: -40px;
+}
+
+.banner-2 .banner-panel h3 {
+    padding-top: 30px;
+    margin-bottom: 16px;
+}
+
+.banner-2 .banner-panel p {
+    color: #f4f4f4;
+}
+
+.banner-img {
+    height: 420px;
+}
+
+/* Banner #4 */
+
+.banner-4 .col-content {
+    padding: 100px 50px 100px 120px;
+}
+
+.banner-4 .col-img {
+    height: 677px;
+}
+
+.banner-4 .feature-panel h3 {
+    font-size: 16px;
+    margin-bottom: 11px;
+}
+
+.banner-4 .feature-panel p {
+    padding: 0;
+}
+
+/* Banner #5 */
+
+.banner-5 .col-content {
+    padding: 100px 70px 50px 100px;
+}
+
+.banner-5 .col-img {
+    height: 677px;
+}
+
+.banner-5 .feature-panel .feature--icon {
+    margin-bottom: 20px;
+}
+
+.banner-5 .feature-panel .feature--content p {
+    padding: 0
+}
+
+/* .banner #6 */
+
+.banner-6 {
+    height: 677px;
+    overflow: hidden
+}
+
+.banner-6 .col-img {
+    padding: 0 !important
+}
+
+.banner-6 .banner--main-img {
+    height: 677px;
+    padding: 0;
+}
+
+.banner--main-img img {
+    width: 100%;
+}
+
+.banner-6 .heading .heading--subtitle{
+    margin-bottom: 26px;
+}
+
+.banner-6 .banner--item-desc {
+    font-size: 15px;
+    color: #a5a5a5;
+    margin-bottom: 24px;
+}
+
+.banner-6 .carousel-dots .owl-controls {
+    margin-top: 50px;
+}
+
+.banner-6 .carousel-dots .owl-controls .owl-dots .owl-dot span {
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid @color-theme;
+    margin: 0 4px;
+}
+
+.banner-6 .carousel-dots .owl-controls .owl-dots .owl-dot.active span {
+    background-color: @color-theme;
+    border-color: @color-theme;
+}
+
+/* .banner #7 */
+
+.banner-7 {
+    height: 800px;
+    overflow: hidden
+}
+
+.banner-7 .col-img {
+    padding: 0 !important;
+    height: 800px;
+    overflow: hidden
+}
+
+.banner-7 .banner--main-img {
+    height: 800px;
+    padding: 0;
+}
+
+.banner-7 .banner--main-img img {
+    width: 100%;
+}
+
+ .banner-7 .heading {
+    margin-bottom: 53px;
+}
+
+.banner-7 .heading .heading--subtitle {
+    color: #9b9b9b;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+
+.banner-7 .heading .heading--title {
+    font-style: italic;
+    margin-bottom: 18px;
+}
+ 
+
+.banner-7 .col-heading .heading .heading--title {
+    font-size: 65px;
+    line-height: 70px;
+    font-style: normal;
+}
+
+.banner-7 .col-content {
+    padding: 120px 70px 80px 90px;
+}
+.banner-7 .work h3 {
+    color: @color-secondary;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 31px;
+}
+
+.banner-7 .portfolio-item {
+    margin-bottom: 17px;
+}
+
+.banner-7 .portfolio-item .portfolio--title h4,
+.banner-7 .portfolio-item .portfolio--cat {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+
+}
+
+.banner-7 .portfolio-item .portfolio--title h4 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 7px;
+}
+
+.banner-7 .portfolio-item .portfolio--title h4 a {
+    color: @color-heading;
+}
+
+.banner-7 .portfolio-item .portfolio--cat a,
+.banner-7 .portfolio-item .portfolio--cat a:after {
+    color: #333333;
+}
+
+.banner-7 .portfolio-item .portfolio--title h4 a:hover,
+.banner-7 .portfolio-item .portfolio--cat a:hover {
+    color: @color-theme;
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .banner-panel {
+        width: 100%;
+        padding: 50px;
+    }
+    .banner-6,
+    .banner-7 {
+        height: auto
+    }
+    .banner-7 .col-heading .heading--title {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    .interactive-white .banner-panel {
+        padding: 50px 40px;
+    }
+
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner-panel {
+        padding: 50px;
+    }
+    .banner-panel h3 {
+        font-size: 18px;
+    }
+    .banner-panel p {
+        font-size: 12px;
+    }
+    .banner-6,
+    .banner-7 {
+        height: auto
+    }
+    .banner-7 .col-content,
+    .banner-6 .col-content {
+        padding: 40px 30px !important;
+    }
+    .banner-7 .heading .heading--title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+}
+
+.banner-panel .divider--line:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 30px;
+    background-color: @color-white;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+}

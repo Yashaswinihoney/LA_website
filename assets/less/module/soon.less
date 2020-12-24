@@ -1,0 +1,155 @@
+/*------------------------------------*\
+    #SOON
+\*------------------------------------*/
+
+.page-soon {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.page-soon h3 {
+    color: @color-heading;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 38px;
+}
+
+.page-soon p {
+    color: #a5a5a5;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 70px;
+}
+
+/* jQuery Countdown styles 2.0.0. */
+
+.is-countdown {}
+
+.countdown-rtl {
+    direction: rtl;
+}
+.countdown-row{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.countdown-section {
+	    position: relative;
+    width: 100%;
+  display: block;
+    text-align: center;
+    position: relative;
+    height: auto;
+    padding: 0 23px;
+}
+
+.countdown-section:last-of-type {
+    margin-right: 0;
+}
+
+.countdown-amount {
+    font-family: @font-heading;
+    color: @color-theme;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 18px;
+}
+
+.countdown-period {
+    display: block;
+    color: #616161;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.countdown-boxed .countdown-section {
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 23px;
+	margin: 0 15px;
+}
+
+.countdown-boxed .countdown-amount {
+    color: @color-white;
+}
+
+.countdown-boxed .countdown-period {
+    color: #f9f9f9;
+}
+
+.countdown-dark .countdown-amount {
+    color: @color-heading;
+}
+
+.countdown-dark .countdown-period {
+    color: #616161;
+}
+
+.countdown-theme .countdown-amount {
+    color: @color-theme;
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .countdown-section {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .page-soon h3 {
+        font-size: 45px;
+        margin-top: 100px;
+    }
+	.countdown-amount {
+        font-size: 30px;
+    }
+	.countdown-boxed .countdown-section{
+		margin: 5px;
+		padding: 10px 5px;
+	}
+    .countdown-period{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .countdown-section {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .countdown-amount {
+        font-size: 40px;
+    }
+
+    .page-soon h3 {
+        font-size: 45px;
+    }
+    .countdown-boxed .countdown-section{
+        padding: 15px;
+    }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .countdown-amount {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .page-soon {
+        padding-top: 150px !important;
+        padding-bottom: 100px !important;
+    }
+}

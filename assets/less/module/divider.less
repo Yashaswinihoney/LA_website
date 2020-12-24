@@ -1,0 +1,46 @@
+/*------------------------------------*\
+    #Divider
+\*------------------------------------*/
+
+.divider--line {
+    position: relative;
+    height: 2px;
+}
+
+.divider--line:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 50px;
+    background-color: @color-theme;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.divider--wide:after {
+    width: 70px !important;
+}
+
+.divider--center:after {
+    left: 50%;
+    margin-left: -25px;
+}
+
+.divider--line.divider--white:after {
+    background-color: @color-white !important;
+}
+
+.divider--line.divider--dark:after {
+    background-color: #222222 !important;
+}
+
+.section-bordered {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.divider--section {
+    border-top: 1px solid #f0f0f0;
+    margin-top: 0;
+    margin-bottom: 0;
+}

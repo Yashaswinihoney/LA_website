@@ -1,0 +1,172 @@
+/*------------------------------------*\
+    #Work Process
+\*------------------------------------*/
+
+.process .process-panel {
+    position: relative;
+}
+
+.process .process-panel:after {
+    background: url(../images/process/divider.png) no-repeat top left;
+    width: 29px;
+    height: 10px;
+    top: 63px;
+    right: -30px;
+    position: absolute;
+    content: "";
+}
+
+.process .process-panel:last-of-type:after {
+    display: none;
+}
+
+.process-panel .process-img {
+    position: relative;
+    margin: 0 auto 28px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.process-panel .process-img img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.process-panel .process-img .process-overlay {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -65px;
+    width: 100%;
+    height: 100%;
+    line-height: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: @font-heading;
+    color: @color-white;
+    border-radius: 50%;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -o-transition: all 0.35s;
+    transition: all 0.35s;
+    padding: 15px;
+    background-color: @color-white;
+    -webkit-box-shadow: 0px 1px 33px 0px rgba(40, 40, 40, 0.12);
+    -moz-box-shadow: 0px 1px 33px 0px rgba(40, 40, 40, 0.12);
+    -o-box-shadow: 0px 1px 33px 0px rgba(40, 40, 40, 0.12);
+    box-shadow: 0px 1px 33px 0px rgba(40, 40, 40, 0.12);
+}
+
+.process-overlay span {
+    border: 2px solid #dedede;
+    height: 104px;
+    width: 104px;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -khtml-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    line-height: 108px;
+    font-weight: 300;
+    background-color: transparent;
+    -webkit-transition: all 300ms linear 0ms;
+    -moz-transition: all 300ms linear 0ms;
+    -ms-transition: all 300ms linear 0ms;
+    transition: all 300ms linear 0ms;
+    font-family: @font-heading;
+    color: @color-theme;
+    background-color: transparent
+}
+
+.process-panel .process-img .process-overlay:hover span {
+    background: @color-theme;
+    color: @color-white;
+}
+
+.process-panel .process-img .process-overlay:hover span {
+    color: @color-white;
+
+}
+
+.process-panel .process-content h3 {
+    font-family: @font-heading;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.process-panel .process-content {
+    position: relative;
+}
+
+.process-panel .process-content p {
+    color: #9b9b9b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 0;
+    padding: 0 30px;
+}
+
+.process-divider {
+    position: absolute;
+    top: 50%;
+    right: -30px;
+}
+
+/* .process-3 */
+
+.process-3 .process-panel .process-img .process-overlay {
+    background-color: @color-heading;
+}
+
+.process-3 .process-panel .process-img .process-overlay span {
+    border-color: transparent;
+    z-index: 3;
+    background-color: @color-white
+}
+
+.process-3 .process-panel .process-img .process-overlay:hover span {
+    background-color: @color-theme
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .process .process-panel {
+        margin-bottom: 30px;
+    }
+    .process .process-panel:after {
+        display: none;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .process .process-panel {
+        margin-bottom: 30px;
+    }
+    .process .process-panel:after {
+        display: none;
+    }
+}

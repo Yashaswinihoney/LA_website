@@ -1,0 +1,197 @@
+/*------------------------------------*\
+	#Video
+\*------------------------------------*/
+
+.video-button .heading .heading--title {
+    font-style: italic;
+}
+
+.video--content .video--player:hover {
+    background-color: @color-theme;
+    color: @color-white;
+}
+
+.video--content .video--button .popup-video {
+    width: 68px;
+    height: 68px;
+    line-height: 65px;
+    color: @color-white;
+    font-family: @font-body;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    background-color: @color-heading;
+    border-radius: 50%;
+}
+
+.video--content .video--button .popup-video i {
+    font-size: 48px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.video--content .video--button .popup-video:hover {
+    background-color: @color-theme;
+    color: @color-white;
+}
+
+.video--content .video--button .popup-video.popup-video-white {
+    background-color: @color-white;
+    color: @color-heading;
+
+}
+
+.video--content .video--player-bordered {
+    font-size: 32px;
+    border: 2px solid #eeeeee;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.video--content .video--player-bordered a,
+.video--content .video--player-theme a {
+    font-size: 32px;
+    line-height: 70px;
+    color: #f9f9f9;
+}
+
+.video--content .video--player-theme {
+    font-size: 32px;
+    border: 2px solid @color-theme;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+ .video--content .video--player-theme:hover,
+.video--content .video--player-bordered:hover {
+     background-color: transparent;
+}
+
+/* Button #1 */
+
+.video-button-1 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.video-button-1 .video--content {
+    width: 540px;
+    height: 363px;
+}
+
+.video-button-1 p {
+    color: #f4f4f4;
+    font-family: @font-secondary;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 37px;
+}
+
+.video-overlay {
+    padding: 10px;
+    height: 100%;
+}
+
+.video-button-1 .video--button {
+    width: 100%;
+    height: 100%;
+    border: 4px solid @color-white;
+    background-color: rgba(40, 40, 40, 0.4);
+    text-align: center;
+}
+
+/* Button #3 */
+
+.video-button-3 .video--content {
+    width: 540px;
+    height: 363px;
+}
+
+/* Button #4 */
+
+.video-button-4 {
+    text-align: center;
+    padding-top: 190px;
+    padding-bottom: 190px;
+}
+
+.video-button-4 .video--content p {
+    color: #f4f4f4;
+    font-family: @font-secondary;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1;
+    letter-spacing: 0.8px;
+    margin-bottom: 25px;
+}
+
+.video-button-4 .video--content h3 {
+    color: @color-white;
+    font-size: 55px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 55px;
+    margin-bottom: 40px;
+}
+
+.video--button.video-overlay-none,
+.video-button-1 .video--button.video-overlay-none {
+    border: none;
+    background-color: transparent;
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .video-button-1 .video--content {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .video-button-1 .heading .heading--title {
+        font-size: 32px;
+    }
+    .video-button-4 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+	.video-button-4 .video--content h3{
+		font-size: 36px;
+	line-height: 45px;
+	}
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .video-button-1 .video--content {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .video-button-1 .heading .heading--title {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .video-button-1 p {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 19px;
+    }
+    .video-button-1 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .video-button-4 {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+}

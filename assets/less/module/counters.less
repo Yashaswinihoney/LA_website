@@ -1,0 +1,96 @@
+/*------------------------------------*\
+    #Counters
+\*------------------------------------*/
+
+.counter {
+    padding: 90px 0
+}
+
+.counter .count-box .counting {
+    font-family: @font-heading;
+    color: @color-white;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.counter .count-box .count-title {
+    color: #f4f4f4;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: capitalize;
+    letter-spacing: 0.23px;
+}
+
+.counter .count-box .divider--line {
+    margin: 15px 0;
+}
+
+.count-box .divider--line:after {
+    width: 30px !important;
+    margin-left: -15px !important;
+}
+
+/* Counter #2 */
+
+.counter-2 .count-box .divider--line:after {
+    background-color: #dbdbdb !important;
+}
+
+.counter-2 .count-box .divider--line.divider--theme:after {
+    background-color: @color-theme !important;
+}
+
+.counter-2 .count-box .counting {
+    color: @color-secondary;
+}
+
+.counter-2 .count-box .count-title,
+.counter-5 .count-box .count-title,
+.counter-6 .count-box .count-title {
+    color: #616161;
+}
+
+/* Counter #3 */
+
+.counter-3,
+.counter-4 {
+    padding: 130px 0
+}
+
+.counter-3 .count-box .divider--line:after {
+    background: @color-heading
+}
+
+/* Counter #4 */
+
+.counter-4 .count-box .divider--line:after {
+    background: @color-theme
+}
+
+/* Counter #5 */
+
+.counter-5 .count-box .counting {
+    color: @color-theme;
+}
+
+/* Counter #6 */
+
+.counter-6 .count-box .counting {
+    color: @color-secondary;
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .count-box {
+        padding: 15px 0;
+    }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
